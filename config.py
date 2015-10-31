@@ -1,4 +1,3 @@
-
 CONFIG = {
     'acceptance_tokens': [],
     'acceptance_threshold': 2,
