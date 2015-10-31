@@ -1,5 +1,3 @@
-__author__ = 'alexkahan'
-
 from requests import get
 from config import CONFIG
 import json
