@@ -34,9 +34,11 @@
             <h4>Accepted</h4>
         {% endif %}
 
-        {% for url in data[repo] %}
-            <a href={{url}}>{{url}}</a>
-        {% endfor %}
+            <ul>
+            {% for url in data[repo] %}
+                <li><a href={{url}}>{{url}}</a></li>
+            {% endfor %}
+            </ul>
     {% endfor %}
 </div>
 
